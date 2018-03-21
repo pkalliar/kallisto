@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alfasigma.iml" filepath="$PROJECT_DIR$/.idea/modules/alfasigma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eshop/eshop.iml" filepath="$PROJECT_DIR$/eshop/eshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gs-multi-module.iml" filepath="$PROJECT_DIR$/.idea/modules/gs-multi-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kallibrary/kallibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/kallibrary/kallibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kallisto.iml" filepath="$PROJECT_DIR$/kallisto.iml" />
+    </modules>
+  </component>
+</project>

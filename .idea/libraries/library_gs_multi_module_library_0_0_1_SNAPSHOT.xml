@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="library.gs-multi-module-library-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/library/build/libs/gs-multi-module-library-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
