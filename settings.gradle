@@ -1,5 +1,10 @@
 rootProject.name = 'gs-multi-module'
 
 include 'kallibrary'
+include 'gateway'
+include 'security'
+include 'spring-cloud-gateway'
 include 'eshop'
 include 'alfasigma'
+include 'cms-center'
+

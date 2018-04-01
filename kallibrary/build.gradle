@@ -10,12 +10,15 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 
 jar {
-    baseName = 'gs-multi-module-library'
-    version = '0.0.1-SNAPSHOT'
+    baseName = 'kallibrary'
+    version = '0.0.2-SNAPSHOT'
 }
 sourceCompatibility = 1.8
 
-repositories { mavenCentral() }
+repositories {
+    mavenCentral()
+
+}
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter')

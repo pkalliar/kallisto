@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../../spring/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../spring/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spring">
+      <excludeFolder url="file://$MODULE_DIR$/../../../spring/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../spring/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../spring/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

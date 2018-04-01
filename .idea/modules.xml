@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/alfasigma.iml" filepath="$PROJECT_DIR$/.idea/modules/alfasigma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cms-center.iml" filepath="$PROJECT_DIR$/.idea/modules/cms-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/eshop/eshop.iml" filepath="$PROJECT_DIR$/eshop/eshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/gs-multi-module.iml" filepath="$PROJECT_DIR$/.idea/modules/gs-multi-module.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/kallibrary/kallibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/kallibrary/kallibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/kallisto.iml" filepath="$PROJECT_DIR$/kallisto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security/security.iml" filepath="$PROJECT_DIR$/.idea/modules/security/security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring/spring.iml" filepath="$PROJECT_DIR$/.idea/modules/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-gateway/spring-cloud-gateway.iml" />
     </modules>
   </component>
 </project>

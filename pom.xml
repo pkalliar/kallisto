@@ -10,6 +10,7 @@
 
     <modules>
         <module>kallibrary</module>
+        <module>gateway</module>
         <module>eshop</module>
         <module>alfasigma</module>
     </modules>

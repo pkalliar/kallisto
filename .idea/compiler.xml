@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="alfasigma" />
         <module name="eshop" />
+        <module name="gateway" />
         <module name="gs-multi-module-application" />
         <module name="kallibrary" />
         <module name="library" />
@@ -22,10 +23,12 @@
       <module name="eshop" target="1.8" />
       <module name="eshop_main" target="1.8" />
       <module name="eshop_test" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="gs-multi-module" target="1.5" />
       <module name="gs-multi-module-application" target="1.8" />
       <module name="gs-multi-module-library" target="1.8" />
       <module name="kallibrary" target="1.8" />
+      <module name="kallisto" target="1.5" />
       <module name="library" target="1.8" />
       <module name="library_main" target="1.8" />
       <module name="library_test" target="1.8" />

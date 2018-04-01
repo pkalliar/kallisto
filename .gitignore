@@ -1,8 +1,13 @@
 -.gradle
 -/build/
--/alfasigma/build/
+-alfasigma/build/
+-/cms-center/build/
 -/eshop/build/
+-/gateway/build/
 -/kallibrary/build/
+-/security/build/
+
+
 -
 -# Ignore Gradle GUI config
 -gradle-app.setting
