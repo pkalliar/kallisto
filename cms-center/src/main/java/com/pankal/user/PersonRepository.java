@@ -10,7 +10,10 @@ public interface PersonRepository extends JpaRepository<Person, Long> {
 
 	Person findByFirstname(String firstname);
 
-	@Query("select u from Person u where LOWER(u.firstname) like lower(concat('%', :value, '%')))")
-	Stream<Person> findByCriteria(@Param("value") String value);
+//	@Query("select u from Person u where LOWER(u.firstname) like lower(concat('%', :value, '%')))")
+//	Stream<Person> findByCriteria(@Param("value") String value);
+
+    Stream<Person> findByFirstnameContaining(@Param("value") String value);
+
 
 }

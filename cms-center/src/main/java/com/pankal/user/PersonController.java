@@ -64,7 +64,7 @@ public class PersonController {
 					while (it.hasNext()) {
 						ObjectNode tdata = (ObjectNode) it.next();
 						log.info("filter: " + tdata);
-						Stream<Person> stream = personRepository.findByCriteria(tdata.get("name").textValue());
+						Stream<Person> stream = personRepository.findByFirstnameContaining(tdata.get("name").textValue());
 						stream.forEach(c -> results.add(c));
 					}
 					return results;
