@@ -33,7 +33,7 @@ import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("/api/contacts")
-@CrossOrigin("*")
+//@CrossOrigin___("*")
 public class ContactController {
 
 	private ContactRepository contactRepository;

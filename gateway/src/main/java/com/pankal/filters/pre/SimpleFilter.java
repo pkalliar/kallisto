@@ -37,6 +37,8 @@ public class SimpleFilter extends ZuulFilter {
 
     log.info(String.format("%s request to %s", request.getMethod(), request.getRequestURL().toString()));
 
+
+
     return null;
   }
 

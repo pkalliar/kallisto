@@ -26,7 +26,7 @@ import java.util.List;
 
 import javax.servlet.Filter;
 
-@CrossOrigin
+//@CrossOrigin--
 @EnableWebSecurity
 public class WebSecurity extends WebSecurityConfigurerAdapter {
 	private UserDetailsService userDetailsService;
@@ -96,17 +96,17 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 //		};
 //	}
 
-	public Filter corsFilter() {
-		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-		CorsConfiguration config = new CorsConfiguration();
-		config.setAllowCredentials(true);
-		config.setAllowedHeaders(getAllowedHeaders());
-		config.setAllowedOrigins(getAllowedOrigins());
-		config.setAllowedMethods(getAllowedMethods());
-		config.setExposedHeaders(getAllowedHeaders());
-		source.registerCorsConfiguration("/**", config);
-		return new CorsFilter(source);
-	}
+//	public Filter corsFilter() {
+//		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+//		CorsConfiguration config = new CorsConfiguration();
+//		config.setAllowCredentials(true);
+//		config.setAllowedHeaders(getAllowedHeaders());
+//		config.setAllowedOrigins(getAllowedOrigins());
+//		config.setAllowedMethods(getAllowedMethods());
+//		config.setExposedHeaders(getAllowedHeaders());
+//		source.registerCorsConfiguration("/**", config);
+//		return new CorsFilter(source);
+//	}
 
 	List getAllowedHeaders() {
 		List allowedHeaders = new ArrayList();

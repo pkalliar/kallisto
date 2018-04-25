@@ -18,7 +18,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Enumeration;
 
 @Component
-@CrossOrigin("*")
+//@CrossOrigin---("*")
 public class LogInterceptor extends HandlerInterceptorAdapter {
 
 	private UserRepository userRepository;

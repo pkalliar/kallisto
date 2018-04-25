@@ -20,7 +20,7 @@ import java.util.Date;
 
 @RestController
 @RequestMapping("/api/authenticate")
-@CrossOrigin("*")
+//@CrossOrigin---("*")
 public class AuthenticationController {
 
 	private UserRepository userRepository;

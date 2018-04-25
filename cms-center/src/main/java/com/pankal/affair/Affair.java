@@ -65,7 +65,7 @@ public class Affair {
 
 	@Override
 	public String toString() {
-		return "Affair{" +
+		return "Protocol{" +
 				"id=" + id +
 				", code='" + code + '\'' +
 				'}';
