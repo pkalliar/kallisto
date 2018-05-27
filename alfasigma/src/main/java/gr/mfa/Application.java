@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 @EnableScheduling
-@SpringBootApplication(scanBasePackages = "hello")
+@SpringBootApplication(scanBasePackages = "gr.mfa")
 @RestController
 public class Application  implements CommandLineRunner {
 
@@ -30,7 +30,7 @@ public class Application  implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
-        System.out.println("Starting app");
+        log.info("Starting app");
 
 //        try {
 //            DBUtilities.connect(jdbcTemplate.getDataSource());

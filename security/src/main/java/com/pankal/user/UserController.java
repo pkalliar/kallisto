@@ -30,7 +30,7 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Stream;
 
-@CrossOrigin
+//@CrossOrigin___("*")
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
@@ -50,7 +50,15 @@ public class UserController {
 		m = new ObjectMapper();
     }
 
-    @PostMapping("/sign-up")
+	@PostMapping("/login")
+	public void login(@RequestBody User user) {
+		log.info("login called for user " + user);
+//		user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+//		userRepository.save(user);
+	}
+
+
+	@PostMapping("/sign-up")
     public void signUp(@RequestBody User user) {
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         userRepository.save(user);

@@ -17,9 +17,9 @@ public class DemoApplicationTest {
     @Autowired
     private MyService myService;
 
-    @Test
-    public void contextLoads() {
-        assertThat(myService).isNotNull();
-    }
+//    @Test
+//    public void contextLoads() {
+//        assertThat(myService).isNotNull();
+//    }
 
 }
