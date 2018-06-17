@@ -1,0 +1,36 @@
+buildscript {
+    ext { springBootVersion = '2.0.0.RELEASE' }
+    repositories { mavenCentral() }
+    dependencies { classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.cloud:spring-cloud-gateway:2.0.0.RC2'
+    }
+}
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile("org.springframework.boot:spring-boot-autoconfigure")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile("org.springframework.security:spring-security-web")
+    compile("org.hsqldb:hsqldb")
+    compile("org.postgresql:postgresql")
+    compile("org.springframework.boot:spring-boot-starter-security")
+    runtime 'org.postgresql:postgresql:42.1.1'
+    compile 'org.springframework.cloud:spring-cloud-starter-gateway'
+}
+
+repositories {
+    maven {
+        url 'https://repo.spring.io/libs-milestone'
+    }
+}

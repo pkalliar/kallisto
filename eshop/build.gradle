@@ -22,5 +22,6 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile project(':kallibrary')
     testCompile 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'com.google.firebase:firebase-admin:6.2.0'
 }
 
